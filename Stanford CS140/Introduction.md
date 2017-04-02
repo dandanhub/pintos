@@ -30,8 +30,9 @@ Higher user-level functions built on syscall interfaces:
 Some syscall examples - UNIX file syscall
 1. `int open(char *path, int flags, /*int mode*/...)`
 
-  Returns file descriptor number - used for all I/O to file.
-  Returns -1 if open fails.
+  * Returns file descriptor number - used for all I/O to file.
+  * Returns -1 if open fails.
+
 
 2. `int read (int fd, void *buf, int nbytes)`
 
